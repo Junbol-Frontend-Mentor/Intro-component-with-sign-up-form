@@ -1,4 +1,4 @@
-// Ensure the JavaScript file is connected
+// Ensuring the JavaScript file is connected
 console.log("JavaScript file is connected");
 
 // Getting HTML elements:
@@ -10,6 +10,9 @@ let myPassword = document.getElementById('password');
 let mySubmitBtn = document.getElementById('submitBtn');
 let myPasswordIcon = document.getElementById('passwordIcon');
 
+
+
+// To test connections:
 console.log("Form:", myForm);
 console.log("First Name:", myFirstName);
 console.log("Last Name:", myLastName);
@@ -129,13 +132,13 @@ function validatePassword() {
     }
 }
 
-// Adding focusout event listeners to input fields
+// Adding focusout and function calls to event listeners to input fields so user get immediate feedback or wrong input
 myFirstName.addEventListener("focusout", validateFirstName);
 myLastName.addEventListener("focusout", validateLastName);
 myEmail.addEventListener("focusout", validateEmail);
 myPassword.addEventListener("focusout", validatePassword);
 
-// Adding click event listener to the submit button
+// Adding click event listener to the submit button to call the functions
 mySubmitBtn.addEventListener("click", function(e) {
     e.preventDefault(); // Prevent form submission
     const isFirstNameValid = validateFirstName();
@@ -143,7 +146,7 @@ mySubmitBtn.addEventListener("click", function(e) {
     const isEmailValid = validateEmail();
     const isPasswordValid = validatePassword();
 
-    if (isFirstNameValid && isLastNameValid && isEmailValid && isPasswordValid) {
+    if (isFirstNameValid && isLastNameValid && isEmailValid && isPasswordValid) { //if all is valid show alert
         alert("Your form has been sent");
         myForm.reset(); // Reset form fields
         // Remove validation classes
