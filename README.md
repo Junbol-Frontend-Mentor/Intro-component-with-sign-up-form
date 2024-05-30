@@ -62,7 +62,10 @@ Using focusout:
 myFirstName.addEventListener("focusout", validateFirstName);
 
 Using nextElementSibling to target html elements:
-
+function validatePassword() {
+    let passwordValue = myPassword.value;
+    let passwordError = myPassword.parentElement.nextElementSibling;
+    let passwordIcon = myPassword.nextElementSibling;
 ```
 
 ### Continued development
