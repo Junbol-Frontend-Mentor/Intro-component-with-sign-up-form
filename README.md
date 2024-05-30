@@ -42,7 +42,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### What I learned
 
-- creating all the logic in Javascript fot the form validation.
+- Creating all the logic in Javascript fot the form validation.
 - The use of regular expressions: I have to say this was tough, this makes this challenge not for newbies 🤪. Just check the  password one 🤣.
 - The use of focusout 🔍
 - Using nextElementSibling to target html elements 👨‍👧‍👦.
