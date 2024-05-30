@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,30 +25,43 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: (https://github.com/Junbol-Frontend-Mentor/interactive-rating-component)
-- Live Site URL: (https://junbol-frontend-mentor.github.io/interactive-rating-component/)
+- Solution URL: (https://github.com/Junbol-Frontend-Mentor/Intro-component-with-sign-up-form)
+- Live Site URL: (https://junbol-frontend-mentor.github.io/Intro-component-with-sign-up-form/)
 
 ## My process
 
-### Built with
+### 🛠 Built with
+- Semantic HTML5 markup 🧾
+- Sass(SCSS)  Flexbox 🎨
+- BEM (Block.Element.Modifier)🧾
+- Mobile-first workflow 📱
+- GIT/GitHub 🧾🌎
+- PowerShell (CLI) 🧾
+- Javascript 🤖🚀
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Sass(SCSS)
-- BEM (Block.Element.Modifier)
-- Flexbox
-- Mobile-first workflow
-- GIT/GitHub
-- PowerShell (CLI)
 
 ### What I learned
 
-- creating all the logic in Javascript to do the seletion of the buttons dynamically using the forEach method.
-- Using javascript to add the logic to make the modal panel show up
+- creating all the logic in Javascript fot the form validation.
+- The use of regular expressions: I have to say this was tough, this makes this challenge not for newbies 🤪. Just check the  password one 🤣.
+- The use of focusout 🔍
+- Using nextElementSibling to target html elements 👨‍👧‍👦.
 
 ```
+Regular Expresions for validating name:
+/^[A-Za-z]+$/ 😨
 
+Regular Expresions for validating email:
+/^[^\s@]+@[^\s@]+\.[^\s@]+$/ 😱
 
+Regular Expresions for validating pssword:
+/^[A-Za-z]+$/
+/^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/ 🤪
+
+Using focusout:
+myFirstName.addEventListener("focusout", validateFirstName);
+
+Using nextElementSibling to target html elements:
 
 ```
 
