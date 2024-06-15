@@ -39,7 +39,6 @@ function validateFirstName() {
   let firstNameIcon = myFirstName.nextElementSibling;
   if (firstNameValue === '') {
     myFirstName.classList.add('form__input-error');
-    myFirstName.classList.remove('form__input-valid');
     firstNameError.classList.remove('form__hide');
     firstNameIcon.classList.remove('form__hide');
     console.log('You need to add your first name');
