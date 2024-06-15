@@ -30,7 +30,7 @@
                   <input class="form__input-field" type="text" placeholder="First Name" name="first-name" required id="first-name" />
                   <div class="form__error_icon form__hide">!</div>
                 </div>
-                <span class="form__error_warning form__hide">Input fields cannot be empty and only letters please</span>
+                <span class="form__error_warning form__hide" id="first-name-error">Input fields cannot be empty and only letters please</span>
               </div>
               <div class="form__data-container">
                 <label for="last-name" class="form__label">Last Name</label>
@@ -39,7 +39,7 @@
                   <input class="form__input-field" type="text" placeholder="Last Name" name="last-name" required id="last-name" />
                   <div class="form__error_icon form__hide">!</div>
                 </div>
-                <span class="form__error_warning form__hide">Input fields cannot be empty and only letters please</span>
+                <span class="form__error_warning form__hide" id="last-name-error">Input fields cannot be empty and only letters please</span>
               </div>
               <div class="form__data-container">
                 <label for="email" class="form__label">Email</label>
@@ -48,7 +48,7 @@
                   <input class="form__input-field" type="email" placeholder="Email" name="email" required id="email" />
                   <div class="form__error_icon form__hide">!</div>
                 </div>
-                <span class="form__error_warning form__hide">Looks like this is not an email</span>
+                <span class="form__error_warning form__hide" id="email-error">Looks like this is not an email</span>
               </div>
               <div class="form__data-container">
                 <label for="password" class="form__label">Password</label>
@@ -58,7 +58,7 @@
                   <div class="form__error_icon form__hide">!</div>
                   <div class="form__reveal_password fa fa-eye password-icon" id="passwordIcon"></div>
                 </div>
-                <span class="form__error_warning form__hide">Use one uppercase letter, one number, one symbol and minimum 8 characters</span>
+                <span class="form__error_warning form__hide"  id="password-error">Use one uppercase letter, one number, one symbol and minimum 8 characters</span>
               </div>
             </div>
             <input type="submit" value="CLAIM YOUR FREE TRIAL" class="form__btn" id="submitBtn" />
